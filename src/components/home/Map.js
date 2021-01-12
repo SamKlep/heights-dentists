@@ -27,7 +27,7 @@ class SimpleMap extends Component {
                 <ListGroup.Item className='bg-primary text-white'>
                   Address: 3482 Midway Dr.
                 </ListGroup.Item>
-                <ListGroup.Item className='bg-light text-dark'>
+                <ListGroup.Item className='bg-light text-black'>
                   Phone: (713) 478 - 8723
                 </ListGroup.Item>
                 <ListGroup.Item className='bg-primary text-white'>
