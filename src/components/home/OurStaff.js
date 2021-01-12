@@ -1,11 +1,11 @@
-import { Row, Col, CardDeck, Card } from 'react-bootstrap'
+import { Row, Col, CardDeck, Card, Button } from 'react-bootstrap'
 
 const OurStaff = () => {
   return (
     <div className='container mb-5'>
       <Row>
         <Col className='mt-5 mb-3'>
-          <h1>Our Staff</h1>
+          <h1>Our Dental Team</h1>
         </Col>
       </Row>
       <Row>
@@ -62,6 +62,26 @@ const OurStaff = () => {
               </Card.Footer>
             </Card>
           </CardDeck>
+        </Col>
+      </Row>
+
+      <Row className='mt-5'>
+        <Col className='text-center'>
+          <h1>At Heights Dentists, we're here for you.</h1>
+          <p className='lead mt-4'>
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+            per inceptos himenaeos. Curabitur sodales ligula in libero. Sed
+            dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean
+            quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis
+            tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi
+            lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce
+            ac turpis quis ligula lacinia aliquet. Mauris ipsum.
+          </p>
+        </Col>
+      </Row>
+      <Row>
+        <Col className='mt-5 text-center'>
+          <Button className='btn-lg btn-info'>Learn More</Button>
         </Col>
       </Row>
     </div>
