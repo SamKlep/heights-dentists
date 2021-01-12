@@ -1,22 +1,29 @@
-import { Nav } from 'react-bootstrap'
+import { Navbar } from 'react-bootstrap'
 
 const Header = () => {
   return (
     <div>
-      <Nav
-        className='bg-dark'
-        activeKey='/home'
-        onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}>
-        <Nav.Item>
-          <Nav.Link href='/home'>Active</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey='link-1'>Link</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey='link-2'>Link</Nav.Link>
-        </Nav.Item>
-      </Nav>
+      <Navbar className='bg-dark header' variant='dark'>
+        <Navbar.Brand className='mt-2' href='/'>
+          <h6>(713) 478 - 8723</h6>
+        </Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse className='justify-content-end'>
+          <Navbar.Text>
+            <ul className='d-flex list-unstyled mt-3'>
+              <li className='p-2'>
+                <i className='far fa-envelope'></i>
+              </li>
+              <li className='p-2'>
+                <i className='fab fa-facebook-f'></i>
+              </li>
+              <li className='p-2'>
+                <i className='fab fa-twitter'></i>
+              </li>
+            </ul>
+          </Navbar.Text>
+        </Navbar.Collapse>
+      </Navbar>
     </div>
   )
 }

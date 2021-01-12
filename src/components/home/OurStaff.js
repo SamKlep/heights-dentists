@@ -5,7 +5,7 @@ const OurStaff = () => {
     <div className='container mb-5'>
       <Row>
         <Col>
-          <h1>Ben K. Zen, D.D.S.</h1>
+          <h1>Helena V. Agua, D.D.S.</h1>
         </Col>
       </Row>
       <Row>
@@ -35,12 +35,12 @@ const OurStaff = () => {
       </Row>
       <Row>
         <Col>
-          <h1>Ben K. Zen, D.D.S.</h1>
+          <h1>Isaia B. Auer, D.D.S.</h1>
         </Col>
       </Row>
       <Row>
         <Col className='text-center'>
-          <Image className='staff1' src='img/dentist-woman.jpg' fluid />
+          <Image className='staff1' src='img/dentist-1.jpg' fluid />
         </Col>
         <Col lg={6}>
           <p className='lead'>
@@ -65,12 +65,12 @@ const OurStaff = () => {
       </Row>
       <Row>
         <Col>
-          <h1>Ben K. Zen, D.D.S.</h1>
+          <h1>Dave H. Bowyer, D.D.S.</h1>
         </Col>
       </Row>
       <Row>
         <Col className='text-center'>
-          <Image className='staff1' src='img/dentist-woman.jpg' fluid />
+          <Image className='staff1' src='img/dentist-2.jpeg' fluid />
         </Col>
         <Col lg={6}>
           <p className='lead'>

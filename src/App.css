@@ -1,12 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+/* UI */
+.header {
+  height: 50px;
+}
+
+.footer {
+  height: 250px;
+}
+
 /* Main Screen */
 .jumbo-main {
-  background-image: url('./img/logo-main.png');
+  background-image: url('./img/houston-bw.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 550px;
 }
+.jumbo-image {
+  background-image: url('https://cdn.pixabay.com/photo/2017/07/23/10/42/dentist-2530983__340.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
 
 .staff1 {
   height: 500px;
+}
+
+/* Media Queries */
+@media (max-width: 800px) {
+  .jumbo-main {
+    background-image: url('./img/houston-bw.jpg');
+    background-position: center;
+    height: 350px;
+  }
 }

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
       <Nav
-        className='justify-content-center'
+        className='bg-primary footer justify-content-center'
         activeKey='/home'
         onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}>
         <Nav.Item>
