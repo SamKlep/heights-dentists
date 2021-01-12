@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@400;600&display=swap');
 
 * {
   font-family: 'Montserrat', sans-serif;
@@ -7,6 +7,7 @@
 .navigation-links {
   font-family: 'Poppins', sans-serif;
   font-size: 1.2rem;
+  font-weight: bold;
 }
 
 body {
