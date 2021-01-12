@@ -5,7 +5,7 @@ const EndContent = () => {
   return (
     <div>
       <Row>
-        <Col>
+        <Col className='text-center'>
           <h1>Cosmetic and Restorative Dentistry</h1>
           <p className='lead'>
             We offer a complete range of dental procedures at our cosmetic and
