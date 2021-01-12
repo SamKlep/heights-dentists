@@ -43,6 +43,9 @@ body {
   height: 500px;
 }
 
+.list-group-map {
+  width: 60%;
+}
 /* Media Queries */
 @media (max-width: 800px) {
   .jumbo-main {

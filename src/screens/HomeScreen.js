@@ -4,7 +4,7 @@ import Paralax from '../components/home/Paralax'
 import EndContent from '../components/home/EndContent'
 import { Container } from 'react-bootstrap'
 import Filler from '../components/home/Filler'
-import Map from '../components/home/Map'
+import Simplemap from '../components/home/Map'
 
 const HomeScreen = () => {
   return (
@@ -19,7 +19,7 @@ const HomeScreen = () => {
       </Container>
       <Filler />
       <Container>
-        <Map />
+        <Simplemap />
       </Container>
     </>
   )
