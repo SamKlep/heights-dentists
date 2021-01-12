@@ -1,3 +1,12 @@
+/* Main Screen */
+.jumbo-main {
+  background-image: url('./img/logo-main.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
 .staff1 {
   height: 500px;
 }

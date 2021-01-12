@@ -4,6 +4,7 @@ const Header = () => {
   return (
     <div>
       <Nav
+        className='bg-dark'
         activeKey='/home'
         onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}>
         <Nav.Item>
@@ -14,11 +15,6 @@ const Header = () => {
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey='link-2'>Link</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey='disabled' disabled>
-            Disabled
-          </Nav.Link>
         </Nav.Item>
       </Nav>
     </div>
