@@ -39,6 +39,19 @@ body {
   height: 300px;
 }
 
+.carousel {
+  width: 900px;
+  height: 500px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel img {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+}
+
 .staff1 {
   height: 500px;
 }
@@ -52,5 +65,29 @@ body {
     background-image: url('./img/houston-bw.jpg');
     background-position: center;
     height: 350px;
+  }
+
+  .carousel {
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+  }
+}
+@media (max-width: 700px) {
+  .carousel {
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 500px) {
+  .carousel {
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    overflow: hidden;
   }
 }

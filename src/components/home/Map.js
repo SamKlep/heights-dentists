@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import GoogleMapReact from 'google-map-react'
-import { Container, Row, Col, ListGroup } from 'react-bootstrap'
+import { Container, Row, Col, ListGroup, Card } from 'react-bootstrap'
 
 const Map = ({ text }) => <div>{text}</div>
 
@@ -21,19 +21,19 @@ class SimpleMap extends Component {
             <Col className='text-center'>
               <h1>Houston Strong</h1>
               <p className='lead'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
-              <ListGroup className='list-group-map mx-auto'>
-                <ListGroup.Item className='bg-primary text-white'>
-                  Address: 3482 Midway Dr.
-                </ListGroup.Item>
-                <ListGroup.Item className='bg-light text-black'>
-                  Phone: (713) 478 - 8723
-                </ListGroup.Item>
-                <ListGroup.Item className='bg-primary text-white'>
-                  Email: info@heightsdentists.com
-                </ListGroup.Item>
-              </ListGroup>
+              <Card className='text-center mx-auto' style={{ width: '18rem' }}>
+                <Card.Header>
+                  <strong>Contact</strong>
+                </Card.Header>
+                <ListGroup variant='flush'>
+                  <ListGroup.Item>3482 Midway Dr.</ListGroup.Item>
+                  <ListGroup.Item>(713) 478 - 8723</ListGroup.Item>
+                  <ListGroup.Item>info@heightsdentists.com</ListGroup.Item>
+                </ListGroup>
+              </Card>
             </Col>
           </Row>
         </Container>

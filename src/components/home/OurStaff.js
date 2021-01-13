@@ -1,4 +1,5 @@
 import { Row, Col, CardDeck, Card, Button } from 'react-bootstrap'
+import { LinkContainer } from 'react-router-bootstrap'
 
 const OurStaff = () => {
   return (
@@ -81,7 +82,9 @@ const OurStaff = () => {
       </Row>
       <Row>
         <Col className='mt-5 text-center'>
-          <Button className='btn-lg btn-info'>Learn More</Button>
+          <LinkContainer to='/about'>
+            <Button className='btn-lg btn-info'>Learn More</Button>
+          </LinkContainer>
         </Col>
       </Row>
     </div>

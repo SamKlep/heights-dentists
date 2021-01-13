@@ -4,7 +4,7 @@ const Paralax = () => {
   return (
     <div>
       <Jumbotron fluid>
-        <Container>
+        <Container className='text-center'>
           <h1>Professional, quality care you can trust.</h1>
           <p className='lead'>
             Our advanced technology and quality dentistry combined with our
