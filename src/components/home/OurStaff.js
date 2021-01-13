@@ -22,28 +22,17 @@ const OurStaff = () => {
                   libero.
                 </Card.Text>
               </Card.Body>
-              <Card.Footer>
-                <small className='text-muted'>
-                  ligula in libero. Sed dignissim.
-                </small>
-              </Card.Footer>
             </Card>
             <Card>
               <Card.Img variant='top' src='img/dentist-1.jpg' />
               <Card.Body>
                 <Card.Title>Isaia B. Auer, D.D.S.</Card.Title>
                 <Card.Text>
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos. Curabitur sodales ligula in
-                  libero.
+                  Dr. Auer is an active member of the American Dental
+                  Association, Texas Dental Association, Greater Houston Dental
+                  Society, and the Academy of General Dentistry.
                 </Card.Text>
               </Card.Body>
-              <Card.Footer>
-                <small className='text-muted'>
-                  {' '}
-                  ligula in libero. Sed dignissim.
-                </small>
-              </Card.Footer>
             </Card>
             <Card>
               <Card.Img variant='top' src='img/dentist-2.jpeg' />
@@ -55,12 +44,6 @@ const OurStaff = () => {
                   libero.
                 </Card.Text>
               </Card.Body>
-              <Card.Footer>
-                <small className='text-muted'>
-                  {' '}
-                  ligula in libero. Sed dignissim.
-                </small>
-              </Card.Footer>
             </Card>
           </CardDeck>
         </Col>
