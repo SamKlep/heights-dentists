@@ -1,4 +1,4 @@
-import { Nav, Navbar } from 'react-bootstrap'
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
 
 const Navigator = () => {
   return (
@@ -11,18 +11,35 @@ const Navigator = () => {
           <Nav.Item className='navigation-links'>
             <Nav.Link href='/'>HOME</Nav.Link>
           </Nav.Item>
-          <Nav.Item className='navigation-links'>
-            <Nav.Link href='/about'>ABOUT</Nav.Link>
-          </Nav.Item>
-          <Nav.Item className='navigation-links'>
-            <Nav.Link href='/cosmetic'>COSMETIC</Nav.Link>
-          </Nav.Item>
-          <Nav.Item className='navigation-links'>
-            <Nav.Link href='/restorative'>RESTORATIVE</Nav.Link>
-          </Nav.Item>
-          <Nav.Item className='navigation-links'>
-            <Nav.Link href='/preventative'>PREVENTATIVE</Nav.Link>
-          </Nav.Item>
+          <NavDropdown
+            className='navigation-links'
+            title='ABOUT'
+            id='basic-nav-dropdown'>
+            <NavDropdown.Item href='/about'>ABOUT US</NavDropdown.Item>
+            <NavDropdown.Item href='/staff'>OUR STAFF</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href='/payment'>PAYMENT</NavDropdown.Item>
+          </NavDropdown>
+          <NavDropdown
+            title='CARE'
+            className='navigation-links'
+            id='basic-nav-dropdown'>
+            <NavDropdown.Item href='/cosmetic'>COSMETIC</NavDropdown.Item>
+            <NavDropdown.Item href='/restorative'>RESTORATIVE</NavDropdown.Item>
+            <NavDropdown.Item href='/preventative'>
+              PREVENTATIVE
+            </NavDropdown.Item>
+          </NavDropdown>
+          <NavDropdown
+            title='TECHNOLOGY'
+            className='navigation-links'
+            id='basic-nav-dropdown'>
+            <NavDropdown.Item href='/xrays'>X-RAYS</NavDropdown.Item>
+            <NavDropdown.Item href='/whitening'>
+              TEETH WHITENING
+            </NavDropdown.Item>
+            <NavDropdown.Item href='/invisalign'>INVISALIGN</NavDropdown.Item>
+          </NavDropdown>
           <Nav.Item className='navigation-links'>
             <Nav.Link href='/contact'>CONTACT</Nav.Link>
           </Nav.Item>
