@@ -1,9 +1,12 @@
 import React from 'react'
+import Main from '../components/payment/Main'
+import Facts from '../components/payment/Facts'
 
 const PaymentScreen = () => {
   return (
     <div>
-      <h1>Payment</h1>
+      <Main />
+      <Facts />
     </div>
   )
 }

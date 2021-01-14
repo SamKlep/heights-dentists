@@ -83,6 +83,16 @@ body {
   height: 300px;
   width: 300px;
 } */
+
+/* Payment */
+
+.payment-jumbo {
+  background-image: url('./img/payment.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
 /* Media Queries */
 @media (max-width: 800px) {
   .jumbo-main {
