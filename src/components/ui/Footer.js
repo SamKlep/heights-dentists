@@ -1,6 +1,5 @@
 import React from 'react'
-import { Nav, Container, Row, Col } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import { Nav, Container, Row, Col, NavDropdown } from 'react-bootstrap'
 
 const Footer = () => {
   return (
@@ -14,31 +13,44 @@ const Footer = () => {
             </Col>
             <Col xs={4} className='mt-3 text-center'>
               <h3>Site Map</h3>
-              <Link to='/about'>
-                <Nav.Item>
-                  <p>ABOUT</p>
-                </Nav.Item>
-              </Link>
-              <Link to='/cosmetic'>
-                <Nav.Item>
-                  <p>COSMETIC</p>
-                </Nav.Item>
-              </Link>
-              <Link to='/restorative'>
-                <Nav.Item>
-                  <p>RESTORATIVE</p>
-                </Nav.Item>
-              </Link>
-              <Link to='/preventative'>
-                <Nav.Item>
-                  <p>PREVENTATIVE</p>
-                </Nav.Item>
-              </Link>
-              <Link to='/contact'>
-                <Nav.Item>
-                  <p>CONTACT</p>
-                </Nav.Item>
-              </Link>
+
+              <NavDropdown
+                className='navigation-links'
+                title='ABOUT'
+                id='basic-nav-dropdown'>
+                <NavDropdown.Item href='/about'>ABOUT US</NavDropdown.Item>
+                <NavDropdown.Item href='/staff'>OUR STAFF</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href='/payment'>PAYMENT</NavDropdown.Item>
+              </NavDropdown>
+
+              <NavDropdown
+                title='CARE'
+                className='navigation-links'
+                id='basic-nav-dropdown'>
+                <NavDropdown.Item href='/cosmetic'>COSMETIC</NavDropdown.Item>
+                <NavDropdown.Item href='/restorative'>
+                  RESTORATIVE
+                </NavDropdown.Item>
+                <NavDropdown.Item href='/preventative'>
+                  PREVENTATIVE
+                </NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown
+                title='TECHNOLOGY'
+                className='navigation-links'
+                id='basic-nav-dropdown'>
+                <NavDropdown.Item href='/xrays'>X-RAYS</NavDropdown.Item>
+                <NavDropdown.Item href='/whitening'>
+                  TEETH WHITENING
+                </NavDropdown.Item>
+                <NavDropdown.Item href='/invisalign'>
+                  INVISALIGN
+                </NavDropdown.Item>
+              </NavDropdown>
+              <Nav.Item className='navigation-links'>
+                <Nav.Link href='/contact'>CONTACT</Nav.Link>
+              </Nav.Item>
             </Col>
             <Col xs={4} className='mt-3 text-center'>
               <h3>Contact</h3>
