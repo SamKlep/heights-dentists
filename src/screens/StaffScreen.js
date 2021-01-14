@@ -1,9 +1,14 @@
 import React from 'react'
+import Main from '../components/staff/Main'
+import Staff from '../components/staff/Staff'
+import DentistStaff from '../components/staff/DentistStaff'
 
 const StaffScreen = () => {
   return (
     <div>
-      <h1>Staff</h1>
+      <Main />
+      <DentistStaff />
+      <Staff />
     </div>
   )
 }
