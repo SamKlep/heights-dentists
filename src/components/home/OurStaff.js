@@ -13,7 +13,7 @@ const OurStaff = () => {
         <Col>
           <CardDeck>
             <Card>
-              <Card.Img variant='top' src='img/dentist-woman.jpg' />
+              <Card.Img className='staff-img' variant='top' src='img/dentist-woman.jpg' />
               <Card.Body>
                 <Card.Title>Helena V. Agua, D.D.S.</Card.Title>
                 <Card.Text>
@@ -24,7 +24,7 @@ const OurStaff = () => {
               </Card.Body>
             </Card>
             <Card>
-              <Card.Img variant='top' src='img/dentist-1.jpg' />
+              <Card.Img className='staff-img' variant='top' src='img/dentist-1.jpg' />
               <Card.Body>
                 <Card.Title>Isaia B. Auer, D.D.S.</Card.Title>
                 <Card.Text>
@@ -35,7 +35,7 @@ const OurStaff = () => {
               </Card.Body>
             </Card>
             <Card>
-              <Card.Img variant='top' src='img/dentist-2.jpeg' />
+              <Card.Img className='staff-img' variant='top' src='img/dentist-2.jpeg' />
               <Card.Body>
                 <Card.Title>Dave H. Bowyer, D.D.S.</Card.Title>
                 <Card.Text>
