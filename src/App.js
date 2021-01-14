@@ -14,6 +14,7 @@ import InvisalignScreen from './screens/InvisalignScreen'
 import ContactScreen from './screens/ContactScreen'
 import './App.css'
 import Footer from './components/ui/Footer'
+import ScrollUp from './components/ui/ScrollUp'
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path='/invisalign' component={InvisalignScreen} />
         <Route path='/contact' component={ContactScreen} />
       </Switch>
+      <ScrollUp />
       <Footer />
     </Router>
   )

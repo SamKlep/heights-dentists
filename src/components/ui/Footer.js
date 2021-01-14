@@ -1,5 +1,6 @@
 import React from 'react'
 import { Nav, Container, Row, Col, NavDropdown } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -9,6 +10,9 @@ const Footer = () => {
           <Row>
             <Col xs={4} className='mt-3 text-center'>
               <h3>Heghts Dentists</h3>
+              <Link to='/'>
+                <h3>HD</h3>
+              </Link>
               <p>© 2021</p>
             </Col>
             <Col xs={4} className='mt-3 text-center'>
