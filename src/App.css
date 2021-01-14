@@ -63,6 +63,20 @@ body {
 .list-group-map {
   width: 60%;
 }
+
+/* About */
+.about-staff-img {
+  height: 300px;
+  width: 300px;
+}
+
+.about-jumbo {
+  background-image: url('./img/dentist-office.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
 /* Media Queries */
 @media (max-width: 800px) {
   .jumbo-main {

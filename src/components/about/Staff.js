@@ -6,8 +6,12 @@ const Staff = () => {
     <div>
       <Container>
         <Row>
-          <Col>
-            <Image src='/img/dentist-woman.jpg' fluid />
+          <Col className='text-center'>
+            <Image
+              className='about-staff-img'
+              src='/img/dentist-woman.jpg'
+              fluid
+            />
           </Col>
           <Col>
             <p className='lead'>
@@ -29,8 +33,8 @@ const Staff = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
-            <Image src='/img/dentist-1.jpg' fluid />
+          <Col className='text-center'>
+            <Image className='about-staff-img' src='/img/dentist-1.jpg' fluid />
           </Col>
           <Col>
             <p className='lead'>
@@ -52,8 +56,12 @@ const Staff = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
-            <Image src='/img/dentist-2.jpeg' fluid />
+          <Col className='text-center'>
+            <Image
+              className='about-staff-img'
+              src='/img/dentist-2.jpeg'
+              fluid
+            />
           </Col>
           <Col>
             <p className='lead'>

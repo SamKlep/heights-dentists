@@ -11,7 +11,7 @@ const Main = () => {
             alt='First slide'
           />
           <Carousel.Caption>
-            <h3>Patient & Professinal</h3>
+            <h3 className='text-dark'>Patient & Professinal</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -22,7 +22,7 @@ const Main = () => {
           />
 
           <Carousel.Caption>
-            <h3>Preventative Care</h3>
+            <h3 className='text-light'>Preventative Care</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -33,7 +33,7 @@ const Main = () => {
           />
 
           <Carousel.Caption>
-            <h3>Knowledgeable & Caring</h3>
+            <h3 className='text-primary'>Knowledgeable & Caring</h3>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

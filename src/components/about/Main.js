@@ -4,11 +4,7 @@ import { Jumbotron, Container, Row, Col } from 'react-bootstrap'
 const Main = () => {
   return (
     <div>
-      <Jumbotron fluid>
-        <Container>
-          <h1>About</h1>
-        </Container>
-      </Jumbotron>
+      <Jumbotron className='about-jumbo' fluid></Jumbotron>
       <Container>
         <Row>
           <Col>
