@@ -1,9 +1,10 @@
 import React from 'react'
+import Main from '../components/prevent/Main'
 
 const PreventativeScreen = () => {
   return (
     <div>
-      <h1>Prevent</h1>
+      <Main />
     </div>
   )
 }

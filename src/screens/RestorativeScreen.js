@@ -1,9 +1,10 @@
 import React from 'react'
+import Main from '../components/restore/Main'
 
 const RestorativeScreen = () => {
   return (
     <div>
-      <h1>Restore</h1>
+      <Main />
     </div>
   )
 }
