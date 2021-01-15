@@ -3,7 +3,7 @@ import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
 const Navigator = () => {
   return (
     <div>
-      <Navbar bg='white' expand='lg' activeKey='/home'>
+      <Navbar bg='white' expand='lg'>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse
           className='justify-content-center'

@@ -99,6 +99,20 @@ body {
   background-size: cover;
   height: 350px;
 }
+/* Cosmetic */
+
+.cosmetic-jumbo {
+  background-image: url('./img/teeth.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+
+.cosmetic-group {
+  width: 350px;
+}
+
 /* Media Queries */
 @media (max-width: 800px) {
   .jumbo-main {

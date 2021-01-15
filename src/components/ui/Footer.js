@@ -18,20 +18,14 @@ const Footer = () => {
             <Col xs={4} className='mt-3 text-center'>
               <h3>Site Map</h3>
 
-              <NavDropdown
-                className='navigation-links'
-                title='ABOUT'
-                id='basic-nav-dropdown'>
+              <NavDropdown title='ABOUT' id='basic-nav-dropdown'>
                 <NavDropdown.Item href='/about'>ABOUT US</NavDropdown.Item>
                 <NavDropdown.Item href='/staff'>OUR STAFF</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href='/payment'>PAYMENT</NavDropdown.Item>
               </NavDropdown>
 
-              <NavDropdown
-                title='CARE'
-                className='navigation-links'
-                id='basic-nav-dropdown'>
+              <NavDropdown title='CARE' id='basic-nav-dropdown'>
                 <NavDropdown.Item href='/cosmetic'>COSMETIC</NavDropdown.Item>
                 <NavDropdown.Item href='/restorative'>
                   RESTORATIVE
@@ -40,10 +34,7 @@ const Footer = () => {
                   PREVENTATIVE
                 </NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown
-                title='TECHNOLOGY'
-                className='navigation-links'
-                id='basic-nav-dropdown'>
+              <NavDropdown title='TECHNOLOGY' id='basic-nav-dropdown'>
                 <NavDropdown.Item href='/xrays'>X-RAYS</NavDropdown.Item>
                 <NavDropdown.Item href='/whitening'>
                   TEETH WHITENING
@@ -52,7 +43,7 @@ const Footer = () => {
                   INVISALIGN
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Item className='navigation-links'>
+              <Nav.Item>
                 <Nav.Link href='/contact'>CONTACT</Nav.Link>
               </Nav.Item>
             </Col>

@@ -3,8 +3,8 @@ import { Jumbotron, Container, Row, Col } from 'react-bootstrap'
 
 const Main = () => {
   return (
-    <div>
-      <Jumbotron className='payment-jumbo' fluid></Jumbotron>
+    <div className='container'>
+      <Jumbotron className='payment-jumbo'></Jumbotron>
       <Container>
         <Row>
           <Col>

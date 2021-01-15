@@ -1,9 +1,10 @@
 import React from 'react'
+import Main from '../components/cosmetic/Main'
 
 const CosmeticScreen = () => {
   return (
     <div>
-      <h1>Cosmetic</h1>
+      <Main />
     </div>
   )
 }
