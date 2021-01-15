@@ -10,6 +10,12 @@
   font-weight: bold;
 }
 
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
 body {
   background-color: #fff;
 }
@@ -129,6 +135,35 @@ body {
 }
 
 @media (max-width: 500px) {
+  .jumbo-main {
+    background-image: url('./img/houston-bw.jpg');
+    background-position: center;
+    height: 350px;
+  }
+  .carousel {
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .about-staff-img {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+  }
+  /* .staff-img {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+  } */
+}
+@media (max-width: px) {
+  .jumbo-main {
+    background-image: url('./img/houston-bw.jpg');
+    background-position: center;
+    height: 350px;
+  }
   .carousel {
     width: 400px;
     height: 250px;
